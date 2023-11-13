@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "RUST_LOG=debug GTK_THEME=Catppuccin-Mocha-Standard-Mauve-Dark cargo run",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"label": "run"
+		}
+	]
+}
